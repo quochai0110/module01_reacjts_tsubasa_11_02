@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // toán tử spread ...
+        let obj1={
+            name:"hoa",
+            address:"hà nội"
+        }
+        let obj2= obj1; // gán địa chỉ ô nhớ của obj1 cho obj2
+        obj1.address="hcm";
+        console.log("obj2",obj2);
+        console.log("obj1",obj1);
+
+        // destructoring
+
+        let  students=["hoa","hồng","minh"];
+        
+        // let [std1,std2]=students;
+
+        // let std1= students[0];
+        // let std2= students[1];
+
+        let [std1, std2]= students;
+        console.log("std1",std1);
+        console.log("std2",std2);
+
+        
+       
+
+
+        
+
+    </script>
+</body>
+</html>
