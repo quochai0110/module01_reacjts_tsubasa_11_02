@@ -8,7 +8,7 @@ export default function Baitap6() {
   };
   return (
     <div>
-      Bài tập 6
+      Bài tập 6 reactjs
       <section className="vh-100 gradient-custom">
         <div className="container py-5 h-100">
           <div
