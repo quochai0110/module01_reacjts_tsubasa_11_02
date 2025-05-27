@@ -2,17 +2,17 @@ import React, { useRef } from 'react'
 
 export default function FormUncontrol() {
     const nameRef =useRef();
-    console.log("11111", nameRef);
+    // console.log("11111", nameRef);
     
     const emailRef= useRef();
     const passwordRef= useRef();
     const handleSubmit=(e)=>{
         e.preventDefault();
-        console.log("thông tin người dùng đăng ký",{
-            name:nameRef.current.value,
-            email:emailRef.current.value,
-            password:passwordRef.current.value,
-        });
+        // console.log("thông tin người dùng đăng ký",{
+        //     name:nameRef.current.value,
+        //     email:emailRef.current.value,
+        //     password:passwordRef.current.value,
+        // });
         
     }
   return (

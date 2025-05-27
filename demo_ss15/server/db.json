@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "minh thu",
+      "age": 25
+    },
+    {
+      "id": 2,
+      "name": "lan hồng",
+      "age": 27
+    },
+    {
+      "id": 3,
+      "name": "hồng vân",
+      "age": 29
+    },
+    {
+      "id": 4,
+      "name": "tú",
+      "age": 26
+    },
+    {
+      "id": 5,
+      "name": "thảo phương",
+      "age": 24
+    },
+    {
+      "name": "user 69",
+      "age": 25,
+      "id": 6
+    },
+    {
+      "name": "user 27",
+      "age": 25,
+      "id": 7
+    }
+  ],
+  "carts": []
+}

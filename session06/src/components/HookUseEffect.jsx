@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 
 export default function HookUseEffect() {
     const [count, setCount]= useState(0);
+    const [apiName,setApiName]= useState("");
     useEffect(()=>{
         console.log("useEffect lại được gọi");
         // axios
